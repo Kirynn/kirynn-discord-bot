@@ -81,4 +81,4 @@ Client.on('message', (message) => {
     }
 });
 
-Client.login(config.tokin);
+Client.login(process.env.TOKEN);
