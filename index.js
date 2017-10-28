@@ -81,4 +81,9 @@ Client.on('message', (message) => {
     }
 });
 
+let token = pro
+
 Client.login(process.env.TOKEN);
+
+const http = require('http');
+http.createServer((req, resp) => {}).listen(process.env.PORT || 5000);
